@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vildes burger</title>
+    <link rel="stylesheet" href="stilburger.css">
+</head>
+<body>
+<a href="index.html" target="_parent">Tilbake til forside</a><br>
+<center>
+    <h1>Vildes burger</h1>
+
+    <img src="./burger.JPG" alt="burger" width="400" title="burger"><br><br>
+<form action="Takkforalt.html">
+<label>Navn:</label> <input name="navn" placeholder="Kari Nordmann" type="text" required><br><br>
+
+    <label>Hovedrett:</label><br>
+    <label for="klassisk burger">Orginial Burger</label><input name="burger" id="klassisk burger" value="klassisk burger" type="radio"><br>
+    <label for="cheese burger">Cheese Burger</label><input name="burger" id="cheese burger" value="cheese burger" type="radio"><br>
+    <label for="bacon burger">Bacon Burger</label><input name="burger" id="bacon burger" value="bacon burger" type="radio"><br>
+    <br>
+    <label>Siderett:</label><br>
+    <label for="løkringer">Løkringer</label><input name="siderett" id="løkringer" value="løkringer" type="radio"><br>
+    <label for="pommes frites">Pommes frites</label><input name="siderett" id="pommes frites" value="pommes frites" type="radio"><br>
+    <label for="sweet potato fries">Sweet potato fries</label><input name="siderett" id="sweet potato fries" value="sweet potato fries" type="radio"><br>
+
+    <br>
+    <img src="brus.png" width="200">
+    <br>
+    <select name="drikke" id="drikke">
+        <option value="">Velg Drikke</option>
+        <option value="Coca Cola">Coca Cola</option>
+        <option value="Coca Cola Light">Coca Cola Light</option>
+        <option value="Coca Cola Zero">Coca Cola Zero</option>
+        <option value="Fanta">Fanta</option>
+        <option value="Sprite">Sprite</option>
+    </select>
+<br>
+    <br>
+    <label>Ekstra:</label><br>
+    <label for="Ketchup">Ketchup</label><input name="ekstra" id="Ketchup" value="Ketchup" type="checkbox"><br>
+    <label for="Sennep">Sennep</label><input name="ekstra" id="Sennep" value="Sennep" type="checkbox"><br>
+    <label for="Hvitløksdressing">Hvitløksdressing</label><input name="ekstra" id="Hvitløksdressing" value="Hvitløksdressing" type="checkbox"><br>
+<br><br>
+<button type="submit">Fullfør bestilling</button>
+</form>
+</center>
+</body>
+</html>
